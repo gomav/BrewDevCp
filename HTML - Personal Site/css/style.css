@@ -23,3 +23,7 @@ li, table, td, a, ol, ul, p, label {
     font-size: 18px;
 
 }
+
+.radial {
+    border-radius: 100%;
+}

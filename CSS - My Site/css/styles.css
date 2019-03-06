@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 50px auto 0 auto ;
+    line-height: 1.4;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.65rem;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container{
+
+
+}
+
+.bottom-container{
+
+
+}
+
+
+.pro{
+    text-decoration: underline;
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 390px;
+    top: 40px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.coding{
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+}
+
+.thinking{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.vulcan{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.me{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.footer-link-twitter {
+    color: #11999E;
+}
+
+.footer-link-website {
+    color: #66BFBF;
+}
+
+.skills {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.coding {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.thinking {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
