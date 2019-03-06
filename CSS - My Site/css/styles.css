@@ -25,7 +25,7 @@ h3 {
 }
 
 .top-container {
-    background-color: #E4F9F5;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 
@@ -37,7 +37,9 @@ h3 {
 }
 
 .bottom-container{
-
+    background-color: #66BFBF;
+    position: relative;
+    padding-bottom: 100px;
 
 }
 
@@ -79,6 +81,7 @@ h3 {
 }
 
 .me{
+    margin-top: 50px;
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -86,10 +89,17 @@ h3 {
 
 .footer-link-twitter {
     color: #11999E;
+    margin-bottom: 20px;
+}
+
+.footer-link-linkedin{
+    color: #11999E;
+    margin-bottom: 20px;
 }
 
 .footer-link-website {
     color: #66BFBF;
+    padding: 0;
 }
 
 .skills {
@@ -109,4 +119,54 @@ h3 {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.iam {
+    margin: auto 400px auto 400px;
+    line-height: 1.8;
+}
+
+.topline {
+    border-top: 8px dotted;
+    margin: 100px 685px 100px 685px;
+    color: #66BFBF;
+    border-bottom: none;
+    border-left: none;
+}
+
+.bottomline {
+    border-top: 8px dotted;
+    margin: 100px 325px 100px 325px;
+    color: #66BFBF;
+    border-bottom: none;
+    border-left: none;
+
+}
+.footer {
+    color: #EAF6F6;
+}
+
+.butn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #EAF6F6;
+  font-size: 21px;
+  padding: 11px;
+  background: #66BFBF;
+  border: solid #66BFBF 0px;
+  text-decoration: none;
+  margin-bottom: 100px;
+  margin-top: 50px
+}
+
+.butn:hover {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
